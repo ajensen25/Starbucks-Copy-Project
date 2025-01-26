@@ -7,6 +7,13 @@
   height: 13vh;
 }
 
+@media only screen and (width < 1000px) {
+  .header {
+    padding: 0rem 1.2rem;
+    height: 11vh;
+  }
+}
+
 .left-header {
   display: flex;
   align-items: center;
@@ -57,8 +64,51 @@
   font-weight: 600;
 }
 
+@media only screen and (width < 738px) {
+  .header-stores {
+    display: none;
+  }
+  .header-buttons {
+    display: none;
+  }
+  .header-navbar {
+    display: none;
+  }
+  .hamburger-button {
+    display: fixed;
+  }
+}
+
+@media only screen and (width >= 738px) {
+  .hamburger-button {
+    display: none;
+  }
+  .header-stores {
+    display: flex;
+  }
+}
+
+.hamburger-button {
+  background: none;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  padding: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.hamburger-button:hover {
+  background: fixed;
+  background-color: rgba(196, 196, 196, 0.185);
+}
+
+.hamburger {
+  height: 2rem;
+  width: 2rem;
+}
+
 .header-stores {
-  display: flex;
   align-items: center;
   cursor: pointer;
   margin-right: 2.5rem;
@@ -113,6 +163,7 @@
   display: flex;
   align-items: center;
   box-shadow: 0 3px 5px rgba(59, 59, 59, 0.44);
+  justify-content: space-between;
 }
 
 .sticky-header-title {
@@ -121,4 +172,38 @@
   font-family: var(--font-family-one);
   font-weight: 700;
   font-size: 13px;
+}
+
+.sticky-header-right {
+  padding-right: 0.5rem;
+}
+
+.sticky-header-button {
+  background: none;
+  border: 1px solid white;
+  border-radius: 100px;
+  padding: 0.3rem 0.6rem;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sticky-header-button:hover {
+  transition: 0.2s;
+  background-color: rgb(4, 51, 4);
+}
+
+@media only screen and (width < 738px) {
+  .sticky-header-title {
+    padding: 0rem 1rem;
+  }
+  .sticky-header-right {
+    display: fixed;
+  }
+}
+
+@media only screen and (width >= 738px) {
+  .sticky-header-right {
+    display: none;
+  }
 }
