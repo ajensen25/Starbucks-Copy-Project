@@ -1,0 +1,146 @@
+.hero {
+  background-color: var(--lightgreen);
+  height: 50vw;
+  display: flex;
+  align-items: center;
+  background-image: url('images/star.png');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 170%;
+}
+
+.hero-content {
+  font-family: var(--font-family-two);
+  margin-left: 3rem;
+}
+
+.hero-title {
+  font-size: 30px;
+  width: 15rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 1.5rem;
+}
+
+.hero-button {
+  background-color: var(--green);
+  border: none;
+  border-radius: 100px;
+  padding: 0.5rem 1.2rem;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.hero-button:hover {
+  transition: 0.2s;
+  opacity: 0.9;
+}
+
+.button-subtitle {
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 1.5rem;
+}
+.button-subtitle span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.button-subtitle span:hover {
+  text-decoration: none;
+}
+
+
+
+
+.getting-started {
+  font-family: var(--font-family-two);
+}
+
+.getting-started-content {
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vh;;
+}
+
+.getting-started-title {
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 0.06rem;
+  margin-bottom: 1rem;
+}
+
+.getting-started-subtitle {
+  font-size: 14px;
+  letter-spacing: 0.03rem;
+}
+
+.getting-started-steps {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.getting-started-wrapper {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper-step {
+  border: 1px solid var(--green);
+  border-radius: 100px;
+  width: 3rem;
+  height: 3rem;
+  color: var(--green);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.wrapper-title {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.03rem;
+  margin-bottom: 1.8rem;
+  text-align: center;
+}
+
+.wrapper-description {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+
+.wrapper-description span {
+  color: var(--green);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.wrapper-description span:hover {
+  text-decoration: none;
+}
+
+
+
+
+.footer-space {
+  height: 50rem;
+}

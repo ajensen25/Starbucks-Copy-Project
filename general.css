@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  --darkgreen: #1e3932;
+  --green: #008248;
+  --lightgreen: #d4e9e2;
+  --whitegreen: #f1f8f6;
+  --cream: #f3f1e7;
+  --black: #000000;
+
+  --font-family-one: 'Montserrat';
+  --font-family-two: 'Noto Sans JP';
+}

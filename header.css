@@ -1,0 +1,123 @@
+.header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2.5rem;
+  height: 13vh;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-container {
+  margin-right: 2.5rem;
+  cursor: pointer;
+}
+
+.header-logo {
+  height: 3rem;
+}
+
+.header-navbar {
+  display: flex;
+  align-items: baseline;
+}
+
+.navbar-menu, 
+.navbar-rewards, 
+.navbar-giftcards {
+  margin-right: 1rem;
+  font-family: var(--font-family-one);
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 13vh;
+}
+
+.navbar-menu:hover, 
+.navbar-rewards:hover, 
+.navbar-giftcards:hover {
+  color: var(--green)
+}
+
+.navbar-rewards {
+  border-bottom: 5px solid var(--green);
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family-one);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.header-stores {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 2.5rem;
+}
+
+.header-stores:hover {
+  color: var(--green);
+}
+
+.stores-icon {
+  height: 1.5rem;
+  margin-right: 0.2rem;
+}
+
+.signin-button {
+  background: none;
+  border: 1px solid black;
+  padding: 0.4rem 1rem;
+  border-radius: 100px;
+  font-weight: 500;
+  font-family: var(--font-family-two);
+  cursor: pointer;
+  margin-right: 0.8rem;
+}
+
+.signin-button:hover {
+  transition: 0.2s;
+  background-color: rgba(186, 186, 186, 0.343);
+}
+
+.join-button {
+  background-color: var(--black);
+  padding: 0.4rem 1rem;
+  border-radius: 100px;
+  border: 1px solid black;
+  font-weight: 500;
+  font-family: var(--font-family-two);
+  color: white;
+  cursor: pointer;
+}
+
+.join-button:hover {
+  transition: 0.2s;
+  opacity: 0.75;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: var(--darkgreen);
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+.sticky-header-title {
+  padding: 0rem 8rem;
+  color: white;
+  font-family: var(--font-family-one);
+  font-weight: 700;
+  font-size: 13px;
+}
