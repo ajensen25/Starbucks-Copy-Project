@@ -112,6 +112,7 @@
   height: 5vh;
   display: flex;
   align-items: center;
+  box-shadow: 0 3px 5px rgba(59, 59, 59, 0.44);
 }
 
 .sticky-header-title {
